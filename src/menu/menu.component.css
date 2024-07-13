@@ -1,0 +1,68 @@
+.button-text {
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.drop-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 60%;
+}
+
+
+.iconMenu {
+    display: none;
+}
+
+.example-sidenav {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media (max-width: 576px) {
+    .hiddenDiv {
+        display: none;
+    }
+    .iconMenu {
+        display: flex;
+    }
+}
+
+.side-nav {
+    width: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.container-nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.button-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.button-text-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.panel-title {
+    font-size: 18px;
+}
+
